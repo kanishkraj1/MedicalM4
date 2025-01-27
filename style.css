@@ -54,6 +54,7 @@
     align-items: center; 
     padding: 0px 20px;
     background-color: #fff;
+    height: 95px;
 }
 
 .navMenu {
@@ -82,9 +83,9 @@
 
 #buynowbttnText{
     background-color: #fff;
-    border-color: var(--borderColor);
-    width: 7.8rem;
-    height: 2.8rem;
+    border-color: var(--buttnColor);
+    width: 10rem;
+    height: 3.8rem;
     color: var(--buttnColor);
     border-radius: 7px;
     font-family: var(--WebFont);
@@ -118,9 +119,14 @@ img#TopBanner{
 
 .bannerText{
     text-align: center;
-    padding: 20px;
+    margin: 90px 20px 20px 20px;
     position: relative;
     word-wrap: break-word;
+    font-family: var(--WebFont);
+    font-weight:900;
+    font-size: 3.4375rem;
+    line-height: 1.2;
+    
 }
 
 #topText{
