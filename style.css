@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+:root{
+    --medColor : rgb(79, 134, 250);
+    --iconColor : #150e3e;
+    --borderColor : rgb(79, 134, 250);
+    --WebFont : 'Mulish';
+    --buttnColor : rgb(54, 103, 224);
+}
+
+@font-face {
+    font-family: var(--WebFont);
+    src: url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+}
+
+
+
+/* Border for testing purpose */
+
+/* .mainLogo, .navMenu, .navBar, .headerWrapper{
+    border: 1px solid var(--borderColor);
+} */
+
+/*  =============== Header CSS ====================*/
+
+/*  =============== Logo and Navigation CSS ====================*/
+#topLogo{
+    height: 3.8rem;
+}
+
+#title{
+    font-family: var(--WebFont);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.logoWrapper{
+    display: flex;
+    align-items: center;
+    margin: 15px 45px;
+    
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 20px;
+    background-color: #fff;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    gap: 10px;
+    align-items: center;
+    right: 50px;
+}
+
+.navLinks {
+   
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px;
+    font-family: var(--WebFont);
+    font-weight: 500;
+    font-size: 15px;
+   
+}
+
+.navLinks:hover {
+    color: #007bff; 
+}
+
+#buynowbttnText{
+    background-color: #fff;
+    border-color: var(--borderColor);
+    width: 7.8rem;
+    height: 2.8rem;
+    color: var(--buttnColor);
+    border-radius: 7px;
+    font-family: var(--WebFont);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+
+#buynowbttnText:hover{
+    color: #fff;
+    background-color: var(--buttnColor);
+    transition: 0.2s ease-in;
+
+}
+
+
+
+
+/*  =============== Top Banner CSS ====================*/
+
+
+img#TopBanner{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: -22%;
+    opacity: 0.5;
+}
+
+.bannerText{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+#topText{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: var(--buttnColor);
+
+}
+
+#secondText{
+    font-size: 3.4375rem;
+    font-style: normal;
+}
