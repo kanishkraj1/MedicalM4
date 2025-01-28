@@ -1,0 +1,17 @@
+@media screen and (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 1.25) {
+
+    #buynowbttnText{
+        width: 8rem;
+        height: 2.8rem;
+    }
+
+    .starterLink{
+        width: 16rem;
+        height: 9vh;
+    }
+
+    .icon {
+        width: 6rem;
+        height: 14vh;
+    }
+}

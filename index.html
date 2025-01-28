@@ -16,19 +16,21 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="stylesheet" href="style-responsive.css" />
   </head>
   <body>
-    <!-- Navigation and Header -->
-    <div class="headerWrapper">
+    <div class="container">
+      <!-- =========== Navigation and Header ============ -->
+
       <div class="navBar">
         <div class="logoWrapper">
           <div class="mainLogo">
-            <a href="index.html"><img
-              src="/Graphics/logo.png"
-              alt="MedicalM4"
-              class="logo"
-              id="topLogo"
+            <a href="index.html"
+              ><img
+                src="/Graphics/logo.png"
+                alt="MedicalM4"
+                class="logo"
+                id="topLogo"
             /></a>
           </div>
           <span id="title">MedicalM4</span>
@@ -41,52 +43,119 @@
           <a class="navLinks" id="buynowbttnText" href="#">BUY NOW</a>
         </div>
       </div>
-      <div class="banner">
-        <div class="bannerImage">
-            <img src="/Graphics/Front_page_Banner.jpg" alt="Main Banner" class="frontBanner" id="TopBanner">
+
+      <div class="content" style="height: 3000px">
+        <!-- ======= Banner Section =========== -->
+
+        <div class="banner">
+          <div class="bannerImage">
+            <img
+              src="/Graphics/Front_page_Banner.jpg"
+              alt="Main Banner"
+              class="frontBanner"
+              id="TopBanner"
+            />
+          </div>
+          <div class="bannerText">
+            <p class="topText">BETTER DENSTISTRY</p>
+            <h1 id="secondText">
+              Welcome to the best
+              <font style="color: var(--medColor)">Dentistry</font> <br />in
+              country.
+            </h1>
+          </div>
+          <div class="buttonWrapper">
+            <a class="starterLink" href="#">Get Started Today!</a>
+            <a id="heartCard" href="#">
+              <span id="roundDiv"><i class="fa-regular fa-heart"></i></span>
+              <span id="textLink">BETTER LIFE</span>
+            </a>
+          </div>
         </div>
-        <div class="bannerText">
-            <p id="topText">BETTER DENSTISTRY</p>
-            <h1 id="secondText">Welcome to the best <font style="color:var(--medColor)">Dentistry</font> <br>in country.</h1>
+        <!-- ======= Icon Section =========== -->
+
+        <div class="iconSection">
+          <div class="iconCard">
+            <span class="icon" id="icon1"
+              ><i class="fa-solid fa-user-doctor"></i
+            ></span>
+            <div class="textpart">
+              <span class="heading" id="#innerHeading1"
+                >Most loved Dental <br />Practice</span
+              >
+              <span class="text" id="#innerText1">Innovative Enviroment</span>
+            </div>
+          </div>
+          <div class="iconCard">
+            <span class="icon" id="icon2"
+              ><i class="fa-solid fa-arrows-rotate"></i
+            ></span>
+            <div class="textpart">
+              <span class="heading" id="#innerHeading2">Membership Plan</span>
+              <span class="text" id="#innerText2"
+                >If you have no insurance.</span
+              >
+            </div>
+          </div>
+          <div class="iconCard">
+            <span class="icon" id="icon3"
+              ><i class="fa-solid fa-phone"></i
+            ></span>
+            <div class="textpart">
+              <span class="heading" id="#innerHeading3"
+                >Patients of all ages</span
+              >
+              <span class="text" id="#innerText3"
+                >Call now: +1 (999) 232467</span
+              >
+            </div>
+          </div>
         </div>
-        <div class="buttonWrapper">
-          <a class="starterLink" href="#">Get Started Today!</a>
-          <a id="heartCard" href="#">
-            <span id="roundDiv"><i class="fa-regular fa-heart"></i></span>
-            <span id="textLink">BETTER LIFE</span>
-          </a>
+
+        <!-- ============= Card Section =========== -->
+
+        <div class="cardsection">
+          <div class="card1">
+            <div class="textPart">
+              <span class="topText">WHO WE ARE</span>
+              <span class="cardText">The NY Biggest Dentistry</span>
+              <span class="heading" id="cardHeading"
+                >New standard for patient care.</span
+              >
+              <p id="card1Details">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                a nisi faucibus, blandit nisl quis, ornare mauris. Quisque
+                facilisis gravida velit, quis tempus eros. Aenean quis nisi
+                consequat, elementum erat id, ultricies risus.
+              </p>
+            </div>
+            <div class="sign">
+              <img id="docSign" src="/Graphics/DrSign.jpg" alt="Doc Sign" />
+              <div class="signPart">
+                <span id="Name">Howard Mason</span>
+                <span id="Designation">Oncologist</span>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <img
+              id="cardImage2"
+              src="/Graphics/FrontPage_SideBanner.jpg"
+              alt="Side Banner Image"
+            />
+          </div>
         </div>
+
+        <div class="scrollerCard">
+          <span class="topText" id="sectionTitle">OUR PHILOSOPHY</span>
+          <span id="sectionHeading">Experience, Trust, and Proven Success</span>
+        </div>
+
+
       </div>
 
 
-      <div class="iconSection">
-        <div class="iconCard">
-          <span class="icon" id="icon1"><i class="fa-solid fa-user-doctor"></i></span>
-          <div class="textpart">
-            <span class="heading" id="#innerHeading1">Most loved Dental <br>Practice</span>
-            <span class="text" id="#innerText1">Innovative Enviroment</span>
-          </div>
-        </div>
-        <div class="iconCard">
-          <span class="icon" id="icon2"><i class="fa-solid fa-arrows-rotate"></i></span>
-          <div class="textpart">
-            <span class="heading" id="#innerHeading2">Membership Plan</span>
-            <span class="text" id="#innerText2">If you have no insurance.</span>
-          </div>  
-        </div>
-        <div class="iconCard">
-          <span class="icon" id="icon3"><i class="fa-solid fa-phone"></i></span>
-          <div class="textpart">
-            <span class="heading" id="#innerHeading3">Patients of all ages</span>
-            <span class="text" id="#innerText3">Call now: +1 (999) 232467</span>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <!-- Icons Section -->
-
-
   </body>
   <script src="src_script.js"></script>
 </html>
