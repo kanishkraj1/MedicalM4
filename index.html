@@ -44,7 +44,7 @@
         </div>
       </div>
 
-      <div class="content" style="height: 3000px">
+      <div class="content">
         <!-- ======= Banner Section =========== -->
 
         <div class="banner">
@@ -148,59 +148,156 @@
 
         <div class="scrollerCard">
           <span class="topText" id="sectionTitle">OUR PHILOSOPHY</span>
-          <span class="cardText" id="sectionHeading">Experience, Trust, and Proven Success</span>
-          <span class="sectionText">Leo duis ut diam quam nulla porttitor massa id neque. Sed risus pretium quam vulputate. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper.</span>
+          <span class="cardText" id="sectionHeading"
+            >Experience, Trust, and Proven Success</span
+          >
+          <span class="sectionText"
+            >Leo duis ut diam quam nulla porttitor massa id neque. Sed risus
+            pretium quam vulputate. Habitasse platea dictumst vestibulum rhoncus
+            est pellentesque elit ullamcorper.</span
+          >
 
-          <div class="scrollCards">
-            <div class="cardSet" id="cardSet1">
-              <span class="cardImage"><img class="card_Image" id="cardImage1" src="/Graphics/CardImage1.jpg" alt="Card Image1"></span>
-              <span class="cardTitle">Testimonials</span>
-              <span class="cardDetail">We see excellent results with electric toothbrushes</span>
+          <div class="carousel-container">
+            <div class="carousel-wrapper" id="carouselWrapper">
+              <div class="cardSet" id="cardSet1">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image1"
+                    src="/Graphics/CardImage1.jpg"
+                    alt="Card Image1"
+                /></span>
+                <span class="cardTitle">Testimonials</span>
+                <span class="cardDetail"
+                  >We see excellent results with electric toothbrushes</span
+                >
+              </div>
+              <div class="cardSet" id="cardSet2">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image2"
+                    src="/Graphics/CardImage2.jpg"
+                    alt="Card Image2"
+                /></span>
+                <span class="cardTitle">Forms</span>
+                <span class="cardDetail"
+                  >There are also tiny brushes that clean between your
+                  teeth</span
+                >
+              </div>
+              <div class="cardSet" id="cardSet3">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image3"
+                    src="/Graphics/CardImage3.jpg"
+                    alt="Card Image3"
+                /></span>
+                <span class="cardTitle">New Patients</span>
+                <span class="cardDetail"
+                  >If these are used improperly you could injure the gums</span
+                >
+              </div>
+              <div class="cardSet" id="cardSet4">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image4"
+                    src="/Graphics/CardImage4.jpg"
+                    alt="Card Image4"
+                /></span>
+                <span class="cardTitle">A softer touch</span>
+                <span class="cardDetail">No suffering from gum disease.</span>
+              </div>
+              <div class="cardSet" id="cardSet5">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image5"
+                    src="/Graphics/CardImage5.jpg"
+                    alt="Card Image5"
+                /></span>
+                <span class="cardTitle">No judgement ever</span>
+                <span class="cardDetail">No failed implant.</span>
+              </div>
+              <div class="cardSet" id="cardSet6">
+                <span class="cardImage"
+                  ><img
+                    class="card_Image"
+                    id="card_Image6"
+                    src="/Graphics/CardImage6.jpg"
+                    alt="Card Image6"
+                /></span>
+                <span class="cardTitle">Zero waiting</span>
+                <span class="cardDetail">No missing tooth.</span>
+              </div>
             </div>
-            <div class="cardSet" class="cardSet2">
-              <span class="cardImage"><img class="card_Image" id="cardImage2" src="/Graphics/CardImage2.jpg" alt="Card Image2"></span>
-              <span class="cardTitle">Forms</span>
-              <span class="cardDetail">There are also tiny brushes that clean between your teeth</span>
-            </div>
-            <div class="cardSet" class="cardSet3">
-              <span class="cardImage"><img class="card_Image" id="cardImage3" src="/Graphics/CardImage3.jpg" alt="Card Image3"></span>
-              <span class="cardTitle">New Patients</span>
-              <span class="cardDetail">If these are used improperly you could injure the gums</span>
-            </div>
-            <div class="cardSet" class="cardSet4">
-              <span class="cardImage"><img class="card_Image" id="cardImage4" src="/Graphics/CardImage4.jpg" alt="Card Image4"></span>
-              <span class="cardTitle">A softer touch</span>
-              <span class="cardDetail">No suffering from gum disease.</span>
-            </div>
-            <div class="cardSet" class="cardSet5">
-              <span class="cardImage"><img class="card_Image" id="cardImage5" src="/Graphics/CardImage5.jpg" alt="Card Image5"></span>
-              <span class="cardTitle">No judgement ever</span>
-              <span class="cardDetail">No failed implant.</span>
-            </div>
-            <div class="cardSet" class="cardSet6">
-              <span class="cardImage"><img class="card_Image" id="cardImage6" src="/Graphics/CardImage6.jpg" alt="Card Image6"></span>
-              <span class="cardTitle">Zero waiting</span>
-              <span class="cardDetail">No missing tooth.</span>
-            </div>
-            <div class="scrollControl">
-              <div class="controlIndicator"></div>
-              <div class="controlIndicator"></div>
-              <div class="controlIndicator"></div>
-            </div>
-
             <div class="scrollRightLeftIcon">
-              <div class="rightIcon"></div>
-              <div class="leftIcon"></div>
+              <div class="leftIcon" id="moveLeftButton" onclick="moveLeft()"><i class="fa-solid fa-circle-arrow-left"></i></div>
+              <div class="rightIcon" id="moveRightButton" onclick="moveRight()"><i class="fa-solid fa-circle-arrow-right"></i></div>
             </div>
-
-
           </div>
-
         </div>
 
+        <div class="clientImageDiv">
+          <img class="clientImage" src="Graphics/ClientLogo1.png" alt="Client Image1">
+          <img class="clientImage" src="Graphics/ClientLogo2.png" alt="Client Image2">
+          <img class="clientImage" src="Graphics/ClientLogo3.png" alt="Client Image3">
+          <img class="clientImage" src="Graphics/ClientLogo4.png" alt="Client Image4">
+          <img class="clientImage" src="Graphics/ClientLogo5.png" alt="Client Image5">
+  
+        </div>
 
       </div>
 
+      <div class="footer">
+        <div class="firstLine">
+          
+        </div>
+
+        <div class="footerHeading" id="heading1">
+          <span class="footerTitle">ABOUT US</span>
+          <span class="titleunderlineBorder"></span>
+
+          <span id="detail">Contrary to popular belief, Lorem simply random text. It has roots in a piece of classical Latin literature.</span>
+          <div class="FooterDetails">
+            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+            <span class="iconDetails">Address: 7654 Street Name</span>
+          </div>
+          <div class="FooterDetails">
+            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+            <span class="iconDetails">Phone: +(999) 5554432</span>
+          </div>
+          <div class="FooterDetails">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="iconDetails">Email: ex@yourmail.com</span>
+          </div>
+
+
+        </div>
+        <div class="footerHeading" id="heading2">
+          <span class="footerTitle">COMPANY</span>
+          <span class="titleunderlineBorder"></span>
+          <span class="linksList">
+            <ul class="listClass">
+              <li class="link" id="link1"><a href="#">About Us</a></li>
+              <li class="link" id="link1"><a href="#">Company</a></li>
+              <li class="link" id="link1"><a href="#">Press Blog</a></li>
+              <li class="link" id="link1"><a href="#">Privacy Policy</a></li>
+              <li class="link" id="link1"><a href="#">FAQ</a></li>
+            </ul>
+          </span>
+        </div>
+        <div class="footerHeading" id="heading3">
+          <span class="footerTitle">LATEST POST</span>
+          <span class="titleunderlineBorder"></span>
+        </div>
+        <div class="footerHeading" id="heading4">
+          <span class="footerTitle">OPENING HOURS</span>
+          <span class="titleunderlineBorder"></span>
+        </div>
+      </div>
 
     </div>
   </body>
