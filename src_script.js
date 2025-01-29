@@ -25,4 +25,4 @@ function moveLeft() {
 document.getElementById('moveRightButton').addEventListener('click', moveRight);
 document.getElementById('moveLeftButton').addEventListener('click', moveLeft);
 
-setInterval(moveRight, 1000);
+setInterval(moveRight, 3000);

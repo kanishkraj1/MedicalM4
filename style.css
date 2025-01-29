@@ -430,11 +430,12 @@ font-size: 16px;
 .clientImageDiv{
   display: -webkit-box;
   -webkit-box-pack: center;
+  margin: 50px;
 }
 
 .clientImage{
   width: 125px;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 
@@ -443,11 +444,60 @@ font-size: 16px;
 
 .footer{
   height: 700px;
-  background-color: #24303e;
-  display: inline-flex;
+  background-color: #24303e; 
   width: 100%;
+}
+
+.firstLine{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  
+}
+
+.input{
+  display: inline-flex;
+}
+
+#emailEnter{
+  padding: 1.1rem 1rem 1.1rem 1.25rem;
+    border-radius: 3px 0 0 3px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 0.875rem;
+    width: 350px;
+    border: none;
+}
+
+#subscribe{
+  height: 59px;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding: 0.625rem 2.1875rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+
+.footerLogoImageName{
+  display: inline-flex;
   align-items: center;
 }
+
+#footerName{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#footer_logo{
+  height: 10vh;
+}
+
 
 .footerHeading{
   display: grid;
